@@ -1,0 +1,7 @@
+<resources>
+	<!--
+		app_name 不在这里定义：它由 app/build.gradle.kts 的 resValue 按构建参数生成，
+		这样同一份代码就能出「The Powder Toy」（官方）和「粉末游戏」（汉化）两个包。
+		在这里再写一份会报资源重名。
+	-->
+</resources>

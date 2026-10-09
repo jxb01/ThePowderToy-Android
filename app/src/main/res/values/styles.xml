@@ -1,0 +1,8 @@
+<resources>
+	<!-- 全屏、无标题栏、深色背景：模拟器/手机启动时不会闪白 -->
+	<style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+		<item name="android:windowBackground">@color/ic_launcher_background</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowFullscreen">true</item>
+	</style>
+</resources>

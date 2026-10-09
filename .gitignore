@@ -1,0 +1,18 @@
+# Gradle / Android Studio
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.cxx/
+
+# 工程自带的 meson/ninja 虚拟环境
+.toolchain/
+
+# 原生库产物（由 scripts/build-native.ps1 生成，不入库）。
+# 注意要覆盖 jniLibs-zhcn 这类变体目录，所以用 **/ 而不是写死 app/src/main/jniLibs。
+**/libpowder.so
+app/libs/sdl2.jar
+
+# 开发签名（要发布的话请换成自己的 keystore）
+tpt-dev.jks
